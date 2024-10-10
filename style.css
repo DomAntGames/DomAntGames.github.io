@@ -5,7 +5,6 @@
 @font-face { 
 	font-family: Roboto; 
 	src: url('fonts/Roboto-Regular.ttf'); 
-
 }
 * {
 	font-family: Roboto, Helvetica, Arial;
@@ -41,14 +40,13 @@ a {
 	display: inline;
 }
 .navigation a {
-	font-family: Roboto, Helvetica, Arial;
 	font-weight: bold;
 	font-size: 24px;
 	padding-left: 22px;
 	padding-right: 22px;
 
 	text-decoration: none;
-	color: #5DB98D;
+	color: #92E1BA;/*#5DB98D;*/
 	text-transform: uppercase;
 }
 .navigation a:hover {
