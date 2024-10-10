@@ -1,9 +1,102 @@
+/*The worst CSS file you'll probably ever read.*/
+/*Hope any web designer reading this can avoid nightmares.*/
+
+/*GENERAL*/
 @font-face { 
 	font-family: Roboto; 
 	src: url('fonts/Roboto-Regular.ttf'); 
 
 }
-
 * {
- font-family: Roboto, Helvetica, Arial;
+	font-family: Roboto, Helvetica, Arial;
+	color: #92E1BA; /*this was probably a mistake*/
+}
+
+/*BODY*/
+body {
+	background-color:#181818;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+a {
+	color: #FF885F;
+}
+
+/*LOGO*/
+.logo {
+	text-align: center;
+}
+
+/*NAVIGATION BAR*/
+.navigation {
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #23676A;
+	text-align: center;
+}
+.navigation li {
+	display: inline;
+}
+.navigation a {
+	font-family: Roboto, Helvetica, Arial;
+	font-weight: bold;
+	font-size: 24px;
+	padding-left: 22px;
+	padding-right: 22px;
+
+	text-decoration: none;
+	color: #5DB98D;
+	text-transform: uppercase;
+}
+.navigation a:hover {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/*CONTENT*/
+.content {
+	width: 75%;
+	height:auto;
+	margin: auto;
+	text-align: center;
+}
+
+/*LEGAL*/
+.legal {
+	width: 100%;
+	text-align: left;
+}
+.legal-segment {
+	margin-left:30%;
+	margin-right:30%;
+	padding-top: 	16px;
+	padding-bottom: 16px;
+}
+.legal h1 {
+	color: #ffffff;
+}
+.legal p {
+	padding-left:5%;
+}
+.legal b {
+	color: #ffffff;
+}
+
+/*FOOTER*/
+.footer {
+	background-color: #23676A;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.footer p {
+	font-size: 12px;
+	color: #ffffff;
 }
