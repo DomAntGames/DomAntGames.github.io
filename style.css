@@ -64,25 +64,31 @@ a {
 	text-align: center;
 }
 
-/*LEGAL*/
-.legal {
+/*things*/
+.things {
 	width: 100%;
 	text-align: left;
 }
-.legal-segment {
+.things-segment {
 	margin-left:30%;
 	margin-right:30%;
-	padding-top: 	16px;
-	padding-bottom: 16px;
+	padding-top: 	10px;
+	padding-bottom: 0px;
 }
-.legal h1 {
+.things h1 {
 	color: #ffffff;
 }
-.legal p {
+.things p {
 	padding-left:5%;
 }
-.legal b {
+.things b {
 	color: #ffffff;
+}
+
+/*PADDINGTON, no, not the bear*/
+/*Dunno how to fix the footer overlap so this dumb thing is here. I told you this is silly.*/
+.paddington {
+	padding-bottom:90px;
 }
 
 /*FOOTER*/
@@ -91,7 +97,6 @@ a {
 	padding-top: 1px;
 	padding-bottom: 1px;
 	text-align: center;
-	
 	position:fixed;
 	bottom:0;
 	width:100%;
