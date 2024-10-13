@@ -83,6 +83,17 @@ a {
 	color: #ffffff;
 }
 
+/*PLATFORM ICONS*/
+.platform img {
+	display: bloc;
+	max-width:48px;
+	max-height:48px;
+	width:auto;
+	height:auto;
+	padding-left:4px;
+	padding-right:4px;
+}
+
 /*PADDINGTON, no, not the bear*/
 /*Dunno how to fix the footer overlap so this dumb thing is here. I told you this is silly.*/
 .paddington {
