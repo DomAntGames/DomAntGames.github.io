@@ -14,5 +14,6 @@ c[n++]= "Sorry for the trouble.";
 c[n++]= "Maybe next time.";
 c[n++]= "Here we go again.";
 c[n++]= "What is this place?";
+c[n++]= "I could eat an apple.";
 let num=Math.floor(Math.random() * n); 
 document.write( "<small>\""+c[num]+"\"</small>" );
