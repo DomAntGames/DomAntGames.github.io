@@ -61,6 +61,40 @@ a {
 	margin: auto;
 	text-align: center;
 }
+/*BLURB, the stuff nobody cares about our games*/
+.blurb {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.blurb-contents {
+	margin-top: 	10px;
+}
+.blurb-logo {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.blurb-sub {
+	width: 600px;
+	text-align: justify;
+}
+.blurb-screenshots {
+	width: 600px;
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.blurb-screenshots img {´
+	width: 20%;
+	height: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.blurb h1 {
+	color: #ffffff;
+}
 
 /*things*/
 .things {
