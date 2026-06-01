@@ -93,6 +93,12 @@ a {
 	color: #ffffff;
 }
 
+/*CREDITS, good people*/
+.credits {
+	width: 400px;
+	text-align:left;
+}
+
 /*things*/
 .things {
 	width: 100%;
